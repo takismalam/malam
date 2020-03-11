@@ -5,4 +5,4 @@ Script ini adalah hasil re'code milik orang lain
 
 hanya di rubah di bagian-bagian tertentu agar tetap bekerja
 
-PIN gopay yang di set adalah 112233 bisa di ganti sesuai keinginan
+PIN gopay yang di set adalah 112233
