@@ -59,7 +59,7 @@ function change(){
         }else{
         echo "\n".color("red","-] Message: ".$message);
         reff:
-        $data = '{"referral_code":"G-75SR565"}';    
+        $data = '{"referral_code":"G-YN6TJY3"}';    
         $claim = request("/customer_referrals/v1/campaign/enrolment", $token, $data);
         $message = fetch_value($claim,'"message":"','"');
         if(strpos($claim, 'Promo kamu sudah bisa dipakai')){
