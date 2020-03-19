@@ -2,7 +2,7 @@
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("red","     SCRIPT HASIL RENAME GRATIS TIDAK DI JUAL \n");
-echo color("white","       Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
+echo color("white","         Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 echo color("white","                    We are exist          \n");
 echo color("white","                  Format Kode 62*** \n");
 function change(){
@@ -35,7 +35,7 @@ function change(){
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
-        sleep(1);
+        sleep(5);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"G-YN6TJY3"}');
         $message = fetch_value($code1,'"message":"','"');
