@@ -1,10 +1,10 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("white","     SCRIPT HASIL RENAME GRATIS TIDAK DI JUAL \n");
+echo color("red","     SCRIPT HASIL RENAME GRATIS TIDAK DI JUAL \n");
 echo color("white","[•]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 echo color("white","[•]              We are exist          \n");
-echo color("white","[•]           Format Kode 62 \n");
+echo color("white","[•]            Format Kode 62*** \n");
 function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
